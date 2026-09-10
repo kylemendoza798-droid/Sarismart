@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sarismart</title>
+
+    <meta name="theme-color" content="#198754">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background: #198754;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        header p {
+            margin-top: 5px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.10);
+        }
+
+        .card h2 {
+            margin-bottom: 10px;
+        }
+
+        .button {
+            display: block;
+            width: 100%;
+            padding: 14px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 10px;
+            background: #198754;
+            color: white;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background: #146c43;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🏪 Sarismart</h1>
+    <p>Your Smart Sari-Sari Store</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Welcome!</h2>
+        <p>
+            Welcome to Sarismart. Manage and access your
+            sari-sari store information easily.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Products</h2>
+        <p>View and manage your products.</p>
+
+        <button class="button" onclick="showMessage()">
+            View Products
+        </button>
+    </div>
+
+    <div class="card">
+        <h2>QR Codes</h2>
+        <p>Access your QR code tools.</p>
+
+        <a class="button" href="qr-codes.html">
+            Open QR Codes
+        </a>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Sarismart</p>
+</footer>
+
+<script>
+    function showMessage() {
+        alert("Products section is ready!");
+    }
+</script>
+
+</body>
+</html>
